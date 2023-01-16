@@ -19,16 +19,23 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <ImPointRight /> Writting Tech Blogs
+            </li> */}
+            <li className="about-activity">
+              <ImPointRight /> Listening Music
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
+
+            <li className="about-activity">
+              <ImPointRight /> Drawings
+            </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "***************"{" "}
+            "If you're lazy, you'll be crazy."{" "}
           </p>
           <footer className="blockquote-footer">Bhavan Sai</footer>
         </blockquote>

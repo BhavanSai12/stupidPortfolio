@@ -1,11 +1,17 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
+  DiGit,
+} from "react-icons/di";
+import {
   SiLinux,
   SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
+  SiDocker,
+  SiJenkins,
+  SiApachemaven,
+  SiKubernetes,
+  SiTerraform,
+  SiAnsible,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -17,15 +23,33 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiJenkins />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachemaven />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAnsible />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
-      </Col>
+      </Col> */}
     </Row>
   );
 }
